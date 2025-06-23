@@ -1,4 +1,4 @@
-// RESTOPILOT AI PRO - VERSION ULTRA-INTELLIGENTE
+/// RESTOPILOT AI PRO - VERSION ULTRA-INTELLIGENTE
 // Avec OpenAI GPT-4 + Whisper pour une IA naturelle et fluide
 
 const express = require('express');
