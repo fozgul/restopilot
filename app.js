@@ -123,7 +123,7 @@ GESTION DES ERREURS :
             const prompt = this.construirePrompt(message, contexteSession);
             
             const response = await openai.chat.completions.create({
-                model: "gpt-4",
+                model: "gpt-3.5-turbo",
                 messages: [
                     { role: "system", content: this.personnalite },
                     { role: "user", content: prompt }
