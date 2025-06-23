@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // Configuration OpenAI
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY || 'tese'
+    apiKey: process.env.OPENAI_API_KEY || 'your-openai-key-here'
 });
 
 // Middleware
